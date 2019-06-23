@@ -4,6 +4,8 @@ secu_config/
 *.exe
 *.vcxproj*
 *.sln
+.classpath
+.project
 
 # Compiled class file
 *.class
