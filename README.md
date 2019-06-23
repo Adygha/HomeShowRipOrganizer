@@ -6,3 +6,9 @@ The purpose is to show the ability to handle complex SQL statements. The idea of
 
 ### Note:
 Although making use of artificial primary keys makes designing and implementation easier, it was intended not to use them here to prepare and practice for any future situation where the use of artificial primary keys is not allowed (it is much easier to use them and the whole solution can be easily converted to use them).
+
+# Video Presentation
+
+https://www.youtube.com/watch?v=AGOz6Nl16PM
+
+The video has closed-caption to present it. Please click the closed-caption button (CC).
