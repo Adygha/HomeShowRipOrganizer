@@ -71,7 +71,7 @@ class ViewTablePane extends BorderPane {
 				this.meLeftColCount = tmpLongest.getCells().size();
 				this.meRightColCount = 0;
 				tmpLongest.getCells().forEach(cell -> this.meTable.getColumns().add(this.createColumn(cell)));
-				
+
 			} else {
 				this.meTable.setColumnResizePolicy(rf -> {
 					if (rf.getColumn() == null) {

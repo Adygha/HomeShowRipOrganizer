@@ -286,7 +286,7 @@ public class ViewHomeShowRip extends BorderPane {
 				tmpHsGnShYr.getParent().setStyle("-fx-border-color: red;");
 				tmpHsGnShTitle.textProperty().bindBidirectional(tmpShowTitle.textProperty());
 				tmpHsGnShYr.getValueFactory().valueProperty().bindBidirectional(tmpShowYr.getValueFactory().valueProperty());
-				
+
 			} else if (tableTemplates.get(i).getTableName().equals("genre")) {
 				TextField tmpHsGnGnName = (TextField)((ViewEditableDataCell<?>)tmpTmpls.get(3).getChildren().get(5)).getChildren().get(2);
 				TextField tmpGnName = (TextField)((ViewEditableDataCell<?>)tmpTmpls.get(4).getChildren().get(5)).getChildren().get(2);
